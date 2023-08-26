@@ -1,6 +1,12 @@
+/*
+    Authour: Salma Faragalla
+    Description: C Program to print Fibonacci Series without recursion
+*/
+
 #include <stdio.h>
 
 void Fibonacci (int n);
+
 int main ()
 {
     int n=0;
@@ -11,7 +17,6 @@ int main ()
         scanf("%d",&n);   
     }
     Fibonacci (n);
-
 }
 
 void Fibonacci (int n)
@@ -39,7 +44,6 @@ void Fibonacci (int n)
             num2=sum;
         }
 
-    }
- 
+    } 
 
 }
